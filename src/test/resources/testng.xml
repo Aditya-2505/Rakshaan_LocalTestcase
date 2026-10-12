@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Mothercare1 Automation Suite" verbose="1" thread-count="1">
+
+  <listeners>
+    <listener class-name="rakshaa.mothercare1.listeners.TestListener"/>
+  </listeners>
+
+  <test name="Navigation Tests (TS_0061 - TS_0069)">
+    <classes>
+      <class name="rakshaa.mothercare1.tests.NavigationTests"/>
+    </classes>
+  </test>
+
+  <test name="Filter Tests (TS_0070 - TS_0073)">
+    <classes>
+      <class name="rakshaa.mothercare1.tests.FilterTests"/>
+    </classes>
+  </test>
+
+  <test name="Footer and Misc Tests (TS_0076, TS_0078, TS_0079)">
+    <classes>
+      <class name="rakshaa.mothercare1.tests.FooterAndMiscTests"/>
+    </classes>
+  </test>
+
+</suite>

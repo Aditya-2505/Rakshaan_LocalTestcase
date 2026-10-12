@@ -1,0 +1,22 @@
+# Maven build output
+target/
+
+# Test run artifacts (generated each run)
+logs/
+reports/
+screenshots/
+recordings/
+
+# Eclipse IDE files
+.settings/
+.classpath
+.project
+.factorypath
+
+# IntelliJ
+.idea/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
